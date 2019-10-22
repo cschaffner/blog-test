@@ -1,5 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: cschaffner/blog-test # Path to your GitHub repository
+
+# backend:
+#   name: git-gateway
 
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
